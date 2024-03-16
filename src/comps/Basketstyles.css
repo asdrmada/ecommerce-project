@@ -1,0 +1,23 @@
+#basket-container {
+    width: 70%;
+    height: 15%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #3e3e3e;
+}
+
+#selection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#selection-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

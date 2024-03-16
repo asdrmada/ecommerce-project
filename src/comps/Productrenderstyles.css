@@ -1,0 +1,24 @@
+.render-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.render-container {
+    width: 20%;
+    height: 15%;
+}
+
+.render-container img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.render-container h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.render-container h3 {
+    margin-bottom: 0.5rem;
+}
