@@ -3,7 +3,7 @@
 }
 
 .main-container {
-  background-color: #6c6c6c;
+  background-color: #3e3e3e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,29 @@ header {
   align-items: center;
 }
 
+header h4 {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+
+  color: rgb(226,109,29);
+  color: linear-gradient(61deg, rgba(226,109,29,1) 25%, rgba(226,208,29,1) 48%); 
+
+  cursor: pointer;
+}
+
+header h6 {
+  font-family: "Cambay", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  color: #e21d2f;
+  font-size: x-large;
+
+  cursor: pointer;
+}
+
 header input{
   height: 7.5%;
   background-color: black;
@@ -36,6 +59,15 @@ header #search-container {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+h2 {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+
+  color: #e26d1d;
+
+  border-bottom: #e21d2f solid 2px;
 }
 
 footer {

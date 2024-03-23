@@ -25,6 +25,11 @@ function Basket(props){
           <div>
             <h3>Total Price: £{calculatePrice()}</h3>
           </div>
+
+          <div id='checkout'>
+            <img src='./images/carticon.png' alt='checkout'/>
+          </div>
+          
         </div>
     )
 }

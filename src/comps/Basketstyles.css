@@ -7,13 +7,34 @@
     justify-content: space-around;
     align-items: center;
 
-    background-color: #3e3e3e;
+    color: black;
+    background-color: #e2d01d;
+
+    position: sticky;
+    top: 0;
+}
+
+#basket-container h3 {
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+}
+
+#checkout img {
+    size: 7.5rem;
+}
+
+#checkout img :hover {
+    cursor: pointer;
 }
 
 #selection-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    font-family: "Cambay", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     
 }
 
@@ -21,3 +42,4 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
